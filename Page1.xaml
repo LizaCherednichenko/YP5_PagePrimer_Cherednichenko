@@ -13,6 +13,9 @@
         <TextBlock Margin="5">
             Это обычная страница. А это <Hyperlink NavigateUri="page2.xaml">ссылка на другую страницу!</Hyperlink>
         </TextBlock>
+        <TextBlock Margin="5">
+            Это обычная страница. А это <Hyperlink NavigateUri="page3.xaml">страничные интерфейсы!</Hyperlink>
+        </TextBlock>
         <Button Margin="5,0,5,0" Padding="5">ОК</Button>
         <Button Padding="5" Margin="5">Close</Button>
     </StackPanel>

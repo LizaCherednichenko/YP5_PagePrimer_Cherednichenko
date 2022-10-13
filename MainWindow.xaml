@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YP5_PagePrimer_Cherednichenko"
         mc:Ignorable="d"
-        Title="Чередниченко УП5" Height="450" Width="800">
+        Title="Чередниченко УП5" Height="561.962" Width="877.512">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="94*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="350*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.RowSpan="2" TextWrapping="Wrap" Margin="3">
+            Данная страница находится с оконном приложении
+        </TextBlock>
+
+        <Button Width="70" Height="20" Content="Задание 1" Margin="10,54,124,107" Click="Button_Click"/>
+
+        <Frame Background="Linen"  Grid.Column="1" Grid.ColumnSpan="2" Source="Page1.xaml" Margin="3"
+               BorderBrush="LimeGreen" BorderThickness="2" Grid.Row="0"></Frame>
+        <Frame Background="Coral" Grid.Column="1" Grid.Row="1" Source="Page2.xaml" Margin="3"
+               BorderBrush="LimeGreen" BorderThickness="2"></Frame>
+        <Frame Background="Plum" Grid.Column="2" Grid.Row="1" Source="Page3.xaml" Margin="3"
+               BorderBrush="LimeGreen" BorderThickness="2"></Frame>
     </Grid>
 </Window>

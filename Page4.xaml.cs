@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace YP5_PagePrimer_Cherednichenko
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page4.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page4 : Page
     {
-        public MainWindow()
+        public Page4()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window Window1 = new Window();
-            Window1.Show();
         }
     }
 }
