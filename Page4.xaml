@@ -9,10 +9,10 @@
       Title="Page4">
 
     <StackPanel>
-        <Label Content="-Case 1"/>
-        <Label Content="-Case 2"/>
-        <Label Content="-Case 3"/>
-        <Label Content="-Case 4"/>
-        <Label Content="-Case 5"/>
+        <TextBlock Text="-Case 1"/>
+        <TextBlock Text="-Case 2"/>
+        <TextBlock Text="-Case 3"/>
+        <TextBlock Text="-Case 4"/>
+        <TextBlock Text="-Case 5"/>
     </StackPanel>
 </Page>
