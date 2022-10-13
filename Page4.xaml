@@ -8,7 +8,11 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page4">
 
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Label Content="-Case 1"/>
+        <Label Content="-Case 2"/>
+        <Label Content="-Case 3"/>
+        <Label Content="-Case 4"/>
+        <Label Content="-Case 5"/>
+    </StackPanel>
 </Page>
