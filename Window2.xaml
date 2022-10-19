@@ -21,14 +21,14 @@
             <RowDefinition Height="200*"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="step1" Content="Step1" Grid.Column="0" Margin="5" Grid.Row="0" Background="#FFD0FFE6"/>
-        <Button x:Name="step2" Content="Step2" Grid.Column="0" Margin="5" Grid.Row="1" Background="#FFD0FFE6"/>
-        <Button x:Name="step3" Content="Step3" Grid.Column="0" Margin="5" Grid.Row="2" Background="#FFD0FFE6"/>
-        <Button x:Name="step4" Content="Step4" Grid.Column="0" Margin="5" Grid.Row="3" Background="#FF8C588F"/>
-        <Button x:Name="step5" Content="Step5" Grid.Column="0" Margin="5" Grid.Row="4" Background="#FF8C588F"/>
+        <Button x:Name="step1" Content="Step 1" Grid.Column="0" Margin="5" Grid.Row="0" Background="#FFD0FFE6" Click="step1_Click"/>
+        <Button x:Name="step2" Content="Step 2" Grid.Column="0" Margin="5" Grid.Row="1" Background="#FFD0FFE6" Click="step2_Click"/>
+        <Button x:Name="step3" Content="Step 3" Grid.Column="0" Margin="5" Grid.Row="2" Background="#FFD0FFE6" Click="step3_Click"/>
+        <Button x:Name="step4" Content="Step 4" Grid.Column="0" Margin="5" Grid.Row="3" Background="#FF8C588F" Click="step4_Click"/>
+        <Button x:Name="step5" Content="Step 5" Grid.Column="0" Margin="5" Grid.Row="4" Background="#FF8C588F" Click="step5_Click"/>
 
         <Canvas Grid.Column="1" Grid.Row="0" Grid.RowSpan="6" Background="Black"/>
 
-        <Frame></Frame>
+        <Frame  x:Name="f1" Grid.Column="2" Grid.Row="0" Grid.RowSpan="6" Source="Page6.xaml"> </Frame>
     </Grid>
 </Window>

@@ -23,5 +23,30 @@ namespace YP5_PagePrimer_Cherednichenko
         {
             InitializeComponent();
         }
+
+        private void step1_Click(object sender, RoutedEventArgs e)
+        {
+            f1.Navigate(new Uri("Page6.xaml", UriKind.Relative));
+        }
+
+        private void step2_Click(object sender, RoutedEventArgs e)
+        {
+            f1.Navigate(new Uri("Page7.xaml", UriKind.Relative));
+        }
+
+        private void step3_Click(object sender, RoutedEventArgs e)
+        {
+            f1.Navigate(new Uri("Page8.xaml", UriKind.Relative));
+        }
+
+        private void step4_Click(object sender, RoutedEventArgs e)
+        {
+            f1.Navigate(new Uri("Page9.xaml", UriKind.Relative));
+        }
+
+        private void step5_Click(object sender, RoutedEventArgs e)
+        {
+            f1.Navigate(new Uri("Page10.xaml", UriKind.Relative));
+        }
     }
 }
