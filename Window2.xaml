@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YP5_PagePrimer_Cherednichenko"
         mc:Ignorable="d"
-        Title="Задание 3" Height="450" Width="800">
+        Title="Задание 3" Height="450" Width="800" Background="#FF9A8BCD">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="193*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="599*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="step1" Content="Step1" Grid.Column="0" Margin="5" Grid.Row="0" Background="#FFD0FFE6"/>
+        <Button x:Name="step2" Content="Step2" Grid.Column="0" Margin="5" Grid.Row="1" Background="#FFD0FFE6"/>
+        <Button x:Name="step3" Content="Step3" Grid.Column="0" Margin="5" Grid.Row="2" Background="#FFD0FFE6"/>
+        <Button x:Name="step4" Content="Step4" Grid.Column="0" Margin="5" Grid.Row="3" Background="#FF8C588F"/>
+        <Button x:Name="step5" Content="Step5" Grid.Column="0" Margin="5" Grid.Row="4" Background="#FF8C588F"/>
+
+        <Canvas Grid.Column="1" Grid.Row="0" Grid.RowSpan="6" Background="Black"/>
+
+        <Frame></Frame>
     </Grid>
 </Window>
