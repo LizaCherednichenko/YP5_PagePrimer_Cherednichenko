@@ -19,6 +19,7 @@
         <Canvas Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Background="#FF3A3A3A"/>
 
         <Button Content="Настройка сети" Grid.Column="0" Grid.Row="0" Width="130" HorizontalAlignment="Left" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="Настройка МД" Grid.Column="0" Grid.Row="0" Width="130" HorizontalAlignment="Left" Background="#FF3A3A3A" Foreground="White" Margin="138,0,0,0" Grid.ColumnSpan="2" />
 
         <GroupBox Header="Настройка сети" Grid.Row="1" Margin="5" Foreground="White">
             <StackPanel>
@@ -33,9 +34,9 @@
             </StackPanel>
         </GroupBox>
 
-        <GroupBox Grid.Row="1" Grid.Column="1" Header="МД в сети" Foreground="White">
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="МД в сети" Foreground="White" Margin="5">
             <StackPanel>
-                <Label Content="АДРЕС КОМПЬЮТЕРА" HorizontalAlignment="Right" Foreground="White"/>
+                <Label Content="АДРЕС КОМПЬЮТЕРА 192.168.201.163" HorizontalAlignment="Right" Foreground="#FFC9C9C9"/>
                 <Frame Source="Page12.xaml" Foreground="Black" Background="#FFDEDEDE"></Frame>
             </StackPanel>
 

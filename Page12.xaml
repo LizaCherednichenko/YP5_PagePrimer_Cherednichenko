@@ -9,6 +9,10 @@
       Title="Page12">
 
     <Grid>
-        
+        <DataGrid AutoGenerateColumns="True">
+            <DataGrid.Items>
+                
+            </DataGrid.Items>
+        </DataGrid>
     </Grid>
 </Page>
