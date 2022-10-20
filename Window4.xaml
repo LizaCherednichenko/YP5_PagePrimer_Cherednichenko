@@ -6,38 +6,39 @@
         xmlns:local="clr-namespace:YP5_PagePrimer_Cherednichenko"
         mc:Ignorable="d"
         Title="Задание 5" Height="600" Width="800">
-    <Grid>
+    <Grid Background="#FF9A9EAC">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="103*"/>
             <ColumnDefinition Width="293*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="31*"/>
-            <RowDefinition Height="388*"/>
+            <RowDefinition Height="28*"/>
+            <RowDefinition Height="541*"/>
         </Grid.RowDefinitions>
 
-        <Canvas Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Background="#FF636363"/>
+        <Canvas Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Background="#FF3A3A3A"/>
 
-        <GroupBox Header="Настройка сети" Grid.Row="1" Margin="5">
+        <Button Content="Настройка сети" Grid.Column="0" Grid.Row="0" Width="130" HorizontalAlignment="Left" Background="#FF3A3A3A" Foreground="White"/>
+
+        <GroupBox Header="Настройка сети" Grid.Row="1" Margin="5" Foreground="White">
             <StackPanel>
-
-                <Button Content="Найти МД" Height="30" Margin="10,10,10,0"/>
-                <Button Content="Изменить IP адрес" Height="30" Margin="10,30,10,0"/>
-                <Button Content="Подключить" Height="30" Margin="10,30,10,0"/>
-                <Button Content="Сменить СМА пароль" Height="30" Margin="10,30,10,0"/>
-                <Button Content="Изменить Объект и Место" Height="30" Margin="10,30,10,0"/>
-                <Button Content="Изменить Дату и Вермя" Height="30" Margin="10,30,10,0"/>
-                <Button Content="Добавить МД" Height="30" Margin="10,30,10,0"/>
-                <Button Content="Переместить МД" Height="30" Margin="10,30,10,0"/>
+                <Button Content="Найти МД" Height="30" Margin="10,10,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Изменить IP адрес" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Подключить" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Сменить СМА пароль" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Изменить Объект и Место" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Изменить Дату и Вермя" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Добавить МД" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Переместить МД" Height="30" Margin="10,30,10,0" Background="{x:Null}" Foreground="White"/>
             </StackPanel>
         </GroupBox>
 
-        <GroupBox Grid.Row="1" Grid.Column="1" Header="МД в сети">
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="МД в сети" Foreground="White">
             <StackPanel>
-                <Label Content="АДРЕС КОМПЬЮТЕРА" HorizontalAlignment="Right"/>
-                <Frame Source="Page12.xaml"></Frame>
+                <Label Content="АДРЕС КОМПЬЮТЕРА" HorizontalAlignment="Right" Foreground="White"/>
+                <Frame Source="Page12.xaml" Foreground="Black" Background="#FFDEDEDE"></Frame>
             </StackPanel>
-            
+
 
         </GroupBox>
 
