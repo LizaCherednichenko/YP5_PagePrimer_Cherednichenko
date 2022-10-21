@@ -7,12 +7,25 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page12">
+    
 
     <Grid>
-        <DataGrid AutoGenerateColumns="True">
-            <DataGrid.Items>
-                
-            </DataGrid.Items>
+        <DataGrid Name="dg1" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Место" Binding="{Binding Mesto}"/>
+                <DataGridTextColumn Header="Точка" Binding="{Binding Toch}"/>
+                <DataGridTextColumn Header="Серийный номер" Binding="{Binding SNom}"/>
+                <DataGridTextColumn Header="IP адрес" Binding="{Binding IP}"/>
+                <DataGridTextColumn Header="МАС адрес" Binding="{Binding MAC}"/>
+                <DataGridTextColumn Header="Состояние подключения" Binding="{Binding SostPod}"/>
+                <DataGridTemplateColumn Header="Дата и время детектора">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding Det}" SelectedDateFormat="Short"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
         </DataGrid>
     </Grid>
 </Page>
