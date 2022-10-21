@@ -1,0 +1,18 @@
+﻿<Page x:Class="YP5_PagePrimer_Cherednichenko.Page15"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:YP5_PagePrimer_Cherednichenko"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page15">
+
+    <Grid>
+        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="153" Height="260">
+            <Image Source="image/1.png" Width="150" Height="151"/>
+            <Label Content="Main" FontSize="48" FontWeight="Bold" HorizontalContentAlignment="Center" Width="151" Height="75"/>
+        </WrapPanel>
+
+    </Grid>
+</Page>

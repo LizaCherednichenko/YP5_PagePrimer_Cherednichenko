@@ -6,7 +6,32 @@
         xmlns:local="clr-namespace:YP5_PagePrimer_Cherednichenko"
         mc:Ignorable="d"
         Title="Задание 7" Height="450" Width="800">
-    <Grid>
-        
+    
+    <Grid Background="#FF633141">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Frame x:Name="f1" Grid.Column="1" Source="Page14.xaml" Background="#FF9C9DB0"/>
+
+        <ListBox Grid.Column="0" Background="{x:Null}" >
+            <ListBoxItem>
+                <Image Source="image/1.png" Width="60" Height="60" MouseUp="Image_MouseUp"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Image Source="image/2.png" Width="60" Height="60" MouseUp="Image_MouseUp_1"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Image Source="image/8.png" Width="60" Height="60" MouseUp="Image_MouseUp_2"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Image Source="image/6.png" Width="60" Height="60" MouseUp="Image_MouseUp_3"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Image Source="image/4.png" Width="60" Height="60" MouseUp="Image_MouseUp_4"/>
+            </ListBoxItem>
+        </ListBox>
+
     </Grid>
 </Window>
