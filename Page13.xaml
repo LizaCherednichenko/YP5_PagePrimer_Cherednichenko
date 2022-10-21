@@ -9,6 +9,23 @@
       Title="Page13">
 
     <Grid>
-        
+        <DataGrid Name="dg1" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Job ID" Binding="{Binding JID}"/>
+                <DataGridTemplateColumn Header="JobDate">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding JD}" SelectedDateFormat="Short"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="User ID" Binding="{Binding UID}"/>
+                <DataGridTextColumn Header="IssueSubject" Binding="{Binding IS}"/>
+                <DataGridTextColumn Header="Screen" Binding="{Binding Screen}"/>
+                <DataGridTextColumn Header="FutherInformation" Binding="{Binding FI}"/>
+                <DataGridTextColumn Header="JobStatus" Binding="{Binding JS}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Page>
