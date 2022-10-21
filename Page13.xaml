@@ -9,7 +9,7 @@
       Title="Page13">
 
     <Grid>
-        <DataGrid Name="dg1" AutoGenerateColumns="False">
+        <DataGrid Name="dg1" AutoGenerateColumns="False" Background="#FF8F8F8F">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Job ID" Binding="{Binding JID}"/>
                 <DataGridTemplateColumn Header="JobDate">

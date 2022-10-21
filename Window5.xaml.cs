@@ -22,6 +22,7 @@ namespace YP5_PagePrimer_Cherednichenko
         public Window5()
         {
             InitializeComponent();
+
         }
     }
 }
