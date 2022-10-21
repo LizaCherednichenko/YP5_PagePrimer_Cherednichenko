@@ -48,5 +48,17 @@ namespace YP5_PagePrimer_Cherednichenko
             Window Window4 = new Window4();
             Window4.Show();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Window Window5 = new Window5();
+            Window5.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            Window Window6 = new Window6();
+            Window6.Show();
+        }
     }
 }

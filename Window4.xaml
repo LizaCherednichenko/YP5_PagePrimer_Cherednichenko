@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YP5_PagePrimer_Cherednichenko"
         mc:Ignorable="d"
-        Title="Задание 5" Height="600" Width="1140.8">
+        Title="Задание 5" Height="600" Width="1016.3">
     <Grid Background="#FF9A9EAC">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="103*"/>
